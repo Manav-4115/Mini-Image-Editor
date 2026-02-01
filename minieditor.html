@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="theme.css">
+
+</head>
+<body>
+   
+</div>
+    <div class="title">
+  <img src="/35095356-2777-4fd2-a1ad-c9ee92fc529c-md.jpeg" alt="logo" class="logo">
+  Mini-image Editor
+</div>
+    
+        <main>
+            <section>
+                <div class="left">
+                    <div class="top">
+                        <label for="imageInput" class="btn">
+                            Choose image
+                            <input type="file" accept="image/*" id="imageInput" hidden />
+                        </label>
+                        <button class="btn" id="Resetbtn">Reset</button>
+                        <button class="btn" id="Downloadbtn">Download</button>
+                    </div>
+                    <div class="bottom" >
+                        <div class="placeholder">
+                            <i class="ri-image-ai-line"></i>
+                            <p>No image selected</p>
+                        </div>
+
+                        <canvas id="imageCanvas"></canvas>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="right">
+                    <h2>Filters</h2>
+                    <div class="filters">
+                    <!-- <div class="Filters">
+                        <p>Brightness</p>
+                        <input 
+                        type="range" 
+                        id="brightness" 
+                        min="0" 
+                        max="200" 
+                        value="100" /> -->
+                    </div>
+                    <h2>Presets</h2>
+                    <div class="presets">
+                        
+                    </div>
+                    </div>
+                   
+                </div>
+            </section>
+        </main>
+
+
+<!-- <script src="assets/js/loader/.js"></script> -->
+<script src="script.js"></script>
+
+</body>
+</html>
